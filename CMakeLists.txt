@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.11.3)
 
 set(CMAKE_CXX_STANDARD 14)
 project(openCVdetector)
-set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-std=c++14 -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pthread")
 
 find_package(OpenCV 4.1 REQUIRED)
 

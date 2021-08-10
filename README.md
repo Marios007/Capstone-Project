@@ -2,7 +2,7 @@
 
 ## Description
 
-This project can detect objects in pictures. The implementation is using [OpenCV](https://github.com/opencv/opencv/master) and [yolov3-tiny](https://pjreddie.com/darknet/yolo/).
+This project can detect objects in pictures. The implementation is using [OpenCV](https://github.com/opencv/opencv) and [yolov3-tiny](https://pjreddie.com/darknet/yolo/).
 The programm opens a file an perform the object detection. As a result a frame is drawn around the object and also the name and confidence level is shown. The program can be used with command line
 
 
@@ -18,6 +18,8 @@ The programm opens a file an perform the object detection. As a result a frame i
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+* OpenCV >= 4.1.0
+  * Linux [Click here for installation instructions](https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/)  (Installing OpenCV from the Source)
 
 ## Basic Build Instructions
 
