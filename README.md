@@ -71,7 +71,7 @@ After compiling with make the executable wuth the name `openCVdetector` is store
 
 Run it example: 
 ```
-./openCVdetector -c=.2 -n=0.5 -i=/home/workspace/Code/Capstone/CapstoneProject/files/a.jpg
+./openCVdetector -c=.2 -n=0.5 -i=/home/workspace/Capstone/CapstoneProject/files/a.jpg
 ```
 Press any key to close the picture. The output picture is stored in the root folder of the project.
 
@@ -149,5 +149,5 @@ Press any key to close the picture. The output picture is stored in the root fol
 
 * **Yes:** A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.
   * in buffer.h
-  
+
 * **NO:** A std::condition_variable is used in the project code to synchronize thread execution.
