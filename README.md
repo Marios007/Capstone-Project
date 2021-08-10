@@ -1,10 +1,11 @@
-# CPPND: Capstone Hello World Repo
+# CPPND: Capstone - Object dectection with Yolo and openCV
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
+## Description
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+This project can detect objects in pictures. The implementation is using [OpenCV](https://github.com/opencv/opencv/master) and [yolov3-tiny](https://pjreddie.com/darknet/yolo/).
+The programm opens a file an perform the object detection. As a result a frame is drawn around the object and also the name and confidence level is shown. The program can be used with command line
 
-In this project, you can build your own C++ application starting with this repo, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -20,7 +21,7 @@ In this project, you can build your own C++ application starting with this repo,
 
 ## Basic Build Instructions
 
-1. Clone this repo.
+1. Clone this repo from .
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./HelloWorld`.
+4. Run it exmplae: `make && ./openCVdetector --input=/home/mario/Code/CppND-Capstone/Capstone-Project/files/a.jpg`
